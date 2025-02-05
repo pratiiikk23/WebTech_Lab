@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        h1 {
+            font-family: "EB Garamond";
+            text-align: center;
+            color: rgb(0, 0, 114);
+            text-decoration: underline;
+        }
+        h2 {
+            font-family: "EB Garamond";
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+            font-family: "DM Sans";
+        }
+        td {
+            text-align: center;
+        }
+        .No
+        {
+            border: none;
+            background-color: yellow;
+        }
+        .No2
+        {
+            border: none;
+            background-color: yellow;
+        }
+    </style>
+
+    <h1>TIME TABLE</h1>
+    <h2>ICT Division 2</h2>
+
+    <table>
+        <tr>
+            <th>DAY</th>
+            <th>8:00 am To 9:55 am</th>
+            <th>9:00 am To 9:55 am</th>
+            <th>10:00 am To 10:55 am</th>
+            <th>10:55 am To 11:10 am</th>
+            <th>11:10 am To 12:05 pm</th>
+            <th>12:10 pm To 1:05 pm</th>
+            <th>1:10 pm To 2:05 pm</th>
+            <th>2:10 pm To 3:05 pm</th>
+            <th>3:05 pm To 4:10 pm</th>
+            <th>4:10 pm To 5:05 pm</th>
+            <th>5:15 pm To 6:10 pm</th>
+        
+        </tr>
+
+        <tr>
+            <th>
+                Monday
+            </th>
+            <td></td>
+            <td colspan="2">Embedded System Lab</td>
+            <td class="No" rowspan="5"><b>SHORT BREAK</b></td>
+            <td>AI Theory</td>
+            <td style="background-color: yellow;"><b>LUNCH BREAK</b></td>
+            <td>Embedded System Theory</td>
+            <td colspan="2">ML/DRL LAB</td>
+            <td colspan="2"></td>
+            
+        </tr>
+
+        <tr>
+            <th>
+                Tuesday
+            </th>
+            <td></td>
+            <td>ML/DRL Theory</td>
+            <td>AI Thoery</td>
+            <!-- <td class="No"><b>SHORT BREAK</b></td> -->
+            <td colspan="2">Cloud Computing Lab</td>
+            <td class="No2" rowspan="3"><b>LUNCH BREAK</b></td>
+            <td colspan="2">Communication Skills III</td>
+            <td></td>
+            <td>CDC Lecture</td>
+        </tr>
+
+        <tr>
+            <th>
+                Wednesday
+            </th>
+            <td></td>
+            <td colspan="2">Web Technology Lab</td>
+            <!-- <td class="No"><b>SHORT BREAK</b></td> -->
+            <td>Embedded System Theory</td>
+            <td>Computer Communication Network Theory</td>
+            <!-- <td class="No2" rowspan="5"><b>LUNCH BREAK</b></td> -->
+            <td colspan="2">Computer Communication Network Lab</td>
+            <td>Industry 4.0 Theory</td>
+            <td>Web Technology Theory</td>
+        </tr>
+
+        <tr>
+            <th>
+                Thursday
+            </th>
+            <td></td>
+            <td>Cloud Computing Theory</td>
+            <td>Computer Communication Network Theory</td>
+            <!-- <td class="No"><b>SHORT BREAK</b></td> -->
+            <td colspan="2">AI Lab</td>
+            <!-- <td class="No3"><b>LUNCH BREAK</b></td> -->
+            <td colspan="2">Industry 4.0 Lab</td>
+            <td>Industry 4.0 Theory</td>
+            <td>Web Technology Theory</td>
+        </tr>
+
+        <tr>
+            <th>
+                Friday
+            </th>
+            <td></td>
+            <td>AI Theory</td>
+            <td>Computer Communication Network Theory</td>
+            <!-- <td class="No"><b>SHORT BREAK</b></td> -->
+            <td>Embedded System Theory</td>
+            <td style="background-color: yellow;"><b>LUNCH BREAK</b></td>
+            <td>Cloud Computing Theory</td>
+            <td colspan="4"></td>
+        </tr>
+
+    </table>
+</body>
+</html>
